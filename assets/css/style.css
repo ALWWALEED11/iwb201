@@ -1,0 +1,291 @@
+.ul{
+    background-color: #333;
+    border: 2px;
+    border-color: white;
+    height: 60px;
+    width: 420px;
+    border-radius: 20px;
+    margin: auto;
+    z-index: 10; 
+      
+}
+#table{
+    margin: auto;
+    margin-top: 200px;
+}
+.bg{
+    background: linear-gradient(#a0e78e, #c4cc9f);
+    height: 100vh;
+    width: 100%;
+
+}
+.bk{
+    background: linear-gradient(#a0e78e, #c4cc9f);
+    height: 100vh;
+    height: 100%;
+}
+li{
+    color: white;
+    margin-right: 50px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    margin-top: -10px;
+    position: relative;
+}
+#btn{
+    font-family: monospace;
+    background: #7e99f3;
+    color: #fff;
+    border: 1px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+     position: absolute;
+     top: 10px;
+     list-style: none;
+  z-index: 10;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.image{
+    width: 200px;
+    height: 200px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+table{
+    margin-top: 200px;
+    border: 3px solid;
+    width: 600px;
+}
+td{
+    border: 3px solid; 
+    font-size: 24px; 
+}
+/* .menu:hover{
+   z-index: 10;
+    background-color: cornflowerblue;
+    border-radius: 25px;
+   width: 100px;
+} */
+
+header{
+    height: 700px;
+    width: 1300px;
+    border: none;
+    padding: none;
+}
+.aboutus{
+    background-image: url(../imge/backgrround.jpg);
+    background-size: cover; 
+
+}
+#text1{
+    position: relative;
+    left: 500px;
+    top: 170px;
+    font-size: 38px;
+    color: white;
+    filter: drop-shadow(3px 4px 6px rgba(20, 207, 20, 0.842) );
+}
+span{
+    position: relative;
+    left: 165px;
+}
+#card{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.card1{
+    position: relative;
+    height: 400px;
+    width: 250px;
+    background-color: rgb(108, 99, 189);
+    border-radius: 10px;
+    left: 20px;
+    top: 250px;
+    box-shadow: 4px 3px 8px #333;
+}
+#card-top{
+    top: 100px;
+    background-image: url(../imge/card.jpg);
+    background-size: cover;
+}
+#card-left{
+background-image: url(../imge/interior-4226020_1280.jpg);
+background-size: cover;
+}
+#card-rhgit{
+    background-image: url(../imge/real-estate-6893060_1280.jpg);
+    background-size: cover;
+
+}
+.card-hover{
+    position: relative;
+    height: 220px;
+    width: 250px;
+    background-color: rgba(73, 148, 135, 0.76);
+    border-radius: 10px;
+    top: -24px;
+opacity: 0%;
+
+}
+.card-hover:hover{
+    opacity: 100%;
+    transition: 700ms;
+}
+p{
+    font-size: 24px;
+    text-align: right;
+    color: wheat;
+    position: relative;
+    right: 5px;
+    top: 5px;
+}
+.nav3{
+    padding: 40px;
+    background-color: #333;
+    height: 340px;
+    width: 1300px;
+}
+label{
+    color: rgb(21, 17, 9);
+}
+section{
+    position: relative;
+    left: 400px;
+    top: 40px;
+    gap: 30px;
+}
+textarea{
+    position: relative;
+    left: 100px;
+    height: 50px;
+    width: 200px;
+}
+input{
+    position: relative;
+     margin-bottom: 30px;
+     left: 1px;
+}
+.pro{
+    margin: auto;
+    margin-top: 100px;
+}
+
+.text2{
+    position: relative;
+    right: 650px;
+}
+.text-icon{
+    position: relative;
+    right: 600px;
+}
+.table-text{
+    color: black;
+}
+
+table{
+    width: 900px;
+    border-spacing:opx;
+}
+table th{
+    padding:15px;
+    background-color:#fff;
+    border:1px solid #f00e0e;
+    border-color: #ffffff;
+    color:#312828;
+    }
+table tr td{
+    background-color: #fff;
+    color:#000000;
+    text-align: center;
+    border-color: #ffffff;
+        }
+.form-container {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.continue {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  background-color: #a0e78e;
+  color: #ffffff;
+}
+
+.continue:hover {
+    opacity: 0.8;
+    }
+
+.continue-container {
+    text-align: center; 
+    padding: 20px;
+
+  }
+
+.properties-head-container {
+
+padding-top: 1px;
+padding-bottom: 1px;
+}
+
+
+/* الفورم */
+.form-container {
+width: 400px; 
+margin: 50px auto; 
+padding: 20px; 
+border: 1px solid #ddd; 
+border-radius: 5px; 
+}
+
+
+label {
+display: block; 
+margin-bottom: 5px; 
+font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="email"] {
+width: 100%; 
+padding: 10px; 
+border: 1px solid #ccc; 
+border-radius: 3px; 
+box-sizing: border-box; 
+}
+
+
+button[type="submit"] {
+    background-color: #a0e78e;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: -36px;
+}
+
+button[type="submit"]:hover {
+opacity: 0.8; 
+}
+
+

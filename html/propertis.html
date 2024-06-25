@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties.html</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="jquery-3.7.1.js"> </script>
+    <script src="MyFunction.js"></script>
+
+    <script>
+     
+    $(document).ready(function(){
+      $('#myCheckbox').click(function(){
+        $('#additionalInfo').slideToggle()
+      })
+      $('#myCheckbox1').click(function(){
+        $('#additionalInfo1').slideToggle()
+      })
+      $('#myCheckbox2').click(function(){
+        $('#additionalInfo2').slideToggle()
+      })
+       $('#myCheckbox3').click(function(){
+         $('#additionalInfo3').slideToggle()
+       })
+       $('#myCheckbox4').click(function(){
+         $('#additionalInfo4').slideToggle()
+       })
+       $('#myCheckbox5').click(function(){
+     $('#additionalInfo5').slideToggle()
+       })
+       $('#myCheckbox6').click(function(){
+         $('#additionalInfo6').slideToggle()
+       })
+       $('#myCheckbox7').click(function(){
+         $('#additionalInfo7').slideToggle()
+       })
+       $('#myCheckbox8').click(function(){
+         $('#additionalInfo8').slideToggle()
+       })
+       $('#myCheckbox9').click(function(){
+         $('#additionalInfo9').slideToggle()
+       })
+     
+       $('#com').click(function(){
+        $('#resultForm').fadeToggle()
+      })
+     
+
+
+    })
+      
+
+    </script>
+</head>
+<body>
+    <div class="bk">
+    <div class="ul">
+        <ul >
+          <div> <div class="menu"><li><a href="home.html">Home</a></li></div></div>
+          <div><div class="menu"><li><a href="aboutUs.html">AboutUs</a></li></div></div>
+          <div> <div class="menu"><li><a href="propertis.html">Propertis</a></li></div></div>      
+        </ul>
+        </div>
+        
+  
+
+    
+    
+    <table border="2" align="center">
+        <tr>
+            <th>اختيار</th>
+            <th>إظهار التفاصيل</th>
+            <th>الإيجار الشهري</th>
+            <th>تفاصيل</th>
+            <th>المدينة</th>
+        </tr>
+        <tr>
+            <td><input type="radio" name="options"> </td>
+            
+            <td><input type="checkbox" onclick="toggleDetails(this, 'details1')"></td>
+            <td dir="rtl">600000 ل.س</td>
+            <td>شقة عائلية مساحة 120 متر مربع</td>
+            <th>دمشق</th>
+        </tr>
+        <tr id="details1"  class="details" style="display:none">
+            <td colspan="5">
+
+                <table width="100%" align="center">
+                    <tr  >
+                        <td> الشقة: غرفتين</td>
+                        <td> الاكساء سوبر ديلوكس</td>
+                        <td>المنطقة: باب توما </td>
+                    </tr>
+                    <tr>
+                        <td> بلكون مساحة 7 متر</td>
+                        <td>الطابق الثالث</td>
+                        <td> متوفر كراج</td>
+                    </tr>
+                    <tr>
+                        <td>   <img width="200" height="200" src="1.jpg" ></td>
+                     
+                    </tr>
+                   
+                  </table>
+                
+
+        </tr>
+        <tr>
+            <td><input type="radio" name="options"></td>
+            <td><input type="checkbox" onclick="toggleDetails(this, 'details2')"></td>
+            <td dir="rtl">554000 ل.س</td>
+            <td>منزل مساحة 120 متر مربع</td>
+            <th>ريف دمشق</th>
+        </tr>
+        <tr id="details2"  class="details" style="display:none">
+            <td colspan="5">
+                
+                
+                <table width="100%" align="center">
+                    <tr>
+                        <td>300000</td>
+                        <td>شقة اربع غرف وصالون ديلوكس 120متر </td>
+                        <td>دمشق</td>
+                    </tr>
+                    <tr>
+                        <td>    <img width="200" height="200" src="2.jpg"></td>
+            
+                    </tr>
+                   
+                  </table>
+                
+                
+                .</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="options"></td>
+            <td><input type="checkbox" onclick="toggleDetails(this, 'details3')"></td>
+            <td dir="rtl">710000 ل.س</td>
+            <td>شاليه مساحة 80 متر مربع</td>
+            <th>طرطوس</th>
+        </tr>
+        <tr id="details3"  class="details" style="display:none">
+            <td colspan="5">
+                
+                <table width="100%" align="center">
+                    <tr>
+                        <td> الشاليه غرفتين </td>
+                        <td> المنطقة الشاطئ الازرق </td>
+                        <td>  مفروشة </td>
+                    </tr>
+                    <tr>
+                        <td>الطابق الاول </td>
+                        <td>  اطلالة على البحر </td>
+                    </tr>
+                    <tr>
+                        <td>   <img <img width="200" height="200" src="3.jpg"  ></td>
+                       
+                    </tr>
+                   
+                  </table>               
+                
+                </td>
+        </tr>
+
+
+        <tr>
+            <td><input type="radio" name="options"></td>
+            <td><input type="checkbox" onclick="toggleDetails(this, 'details4')"></td>
+            <td dir="rtl">490000 ل.س</td>
+            <td>فيلا مساحة300 متر مربع  </td>
+            <th>حلب</th>
+        </tr>
+        <tr id="details4"  class="details" style="display:none">
+            <td colspan="5"> 
+                
+                <table width="100%" align="center">
+                    <tr>
+                        <td>  الفيلا خمس غرف  </td>
+                        <td> حلب الديدة </td>
+                        <td> متوفر كراج </td>
+                    </tr>
+                    <tr>
+                        <td> مفروشة </td>
+                        <td> يوجد مسبح </td>
+                    </tr>
+                    <tr>
+                        <td>   <img width="200" height="200" src="4.jpg"  ></td>
+                      
+                    </tr>
+                   
+                  </table>
+                     
+            .</td>
+        </tr>
+
+
+        <tr>
+            <td><input type="radio" name="options"></td>
+            <td><input type="checkbox" onclick="toggleDetails(this, 'details5')"></td>
+            <td dir="rtl">400000 ل.س</td>
+            <td>شقة مفروشة مساحة 100 متر مربع </td>
+            <th>حمص</th>
+        </tr>
+        <tr id="details5"  class="details" style="display:none">
+            <td colspan="5"> 
+                
+                <table width="100%" align="center">
+                    <tr>
+                        <td> الشقة غرفتين وصالة </td>
+                        <td> المنطقة الجورة </td>
+                        <td> الطابق الثالث </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>   <img width="200" height="200" src="5.jpg"  ></td>
+                       
+                    </tr>
+                   
+                  </table>
+                
+            
+                .</td>
+        </tr>
+
+
+        <tr>
+            <td><input type="radio" name="options"></td>
+            <td><input type="checkbox" onclick="toggleDetails(this, 'details6')"></td>
+            <td dir="rtl">480000 ل.س</td>
+            <td>ستوديو  مساحة 30 متر مربع</td>
+            <th>حماه</th>
+        </tr>
+        <tr id="details6"  class="details" style="display:none">
+            <td colspan="5">
+                
+                <table width="100%" align="center">
+                    <tr>
+                        <td>غرفة ومنافع  </td>
+                        <td> المنطقة الحميدية </td>
+                        <td>غير مفروش </td>
+                    </tr>
+                    <tr>
+                        <td> طابق رابع </td>
+                        <td>اكساء ديلوكس  </td>
+                        <td> المنطقة: باب توما </td>
+                    </tr>
+                    <tr>
+                        <td>    <img width="200" height="200" src="6.jpg"  ></td>
+                       
+                    </tr>
+                   
+                  </table>
+                
+        
+                .</td>
+        </tr>
+
+        <tr>
+            <td><input type="radio" name="options"></td>
+            <td><input type="checkbox" onclick="toggleDetails(this, 'details7')"></td>
+            <td dir="rtl">340000 ل.س</td>
+            <td>بيت عربي مساحة 200 متر مربع</td>
+            <th>السويداء</th>
+        </tr>
+        <tr id="details7"  class="details" style="display:none">
+            <td colspan="5"> 
+                
+                <table align="center">
+                    <tr>
+                        <td> المنطقة: كفر نبل </td>
+                        <td> حديقة واسعة </td>
+                        <td> اشجار متنوعة </td>
+                    </tr>
+                    <tr>
+                        <td>اطلالة على الجبال </td>
+                        <td> خمس غرف وحمامان </td>
+                        <td>نظام تدفئة مركزي </td>
+                    </tr>
+                    <tr>
+                        <td>     <img width="200" height="200" src="7.jpg"  ></td>
+                        
+                    </tr>
+                   
+                  </table>
+                
+            
+                .</td>
+        </tr>
+
+
+        <tr>
+            <td><input type="radio" name="options"></td>
+            <td><input type="checkbox" onclick="toggleDetails(this, 'details8')"></td>
+            <td dir="rtl">434000 ل.س</td>
+            <td>بنغلو مساحة 120 متر مربع</td>
+            <th>الحسكة</th>
+        </tr>
+        <tr id="details8"  class="details" style="display:none">
+            <td colspan="5"> 
+                
+                <table align="center">
+                    <tr>
+                        <td> نوع العقار بنغلو </td>
+                        <td> حديقة خاصة وموقف سيارات </td>
+                        <td> المنطقة: الجزيرة </td>
+                    </tr>
+                    <tr>
+                        <td> عدد الغرف 4 </td>
+                        <td> مفروش بالكامل </td>
+                      
+                    </tr>
+                    <tr>
+                        <td>   <img width="200" height="200" src="8.jpg"  ></td>
+                        7
+                    </tr>
+                   
+                  </table>
+                
+                .</td>
+        </tr>
+
+
+        <tr>
+            <td><input type="radio" name="options"></td>
+            <td><input type="checkbox" onclick="toggleDetails(this, 'details9')"></td>
+            <td dir="rtl">600000 ل.س</td>
+            <td>شقة مشمسة مساحة 110 متر مربع</td>
+            <th>درعا</th>
+        </tr>
+        <tr id="details9"  class="details" style="display:none">
+            <td colspan="5">
+                <table width="100%" align="center">
+                    <tr>
+                        <td> المنطقة: المزية </td>
+                        <td> عدد الغرف 3 </td>
+                        <td> شرفة تطل على المدينة </td>
+                    </tr>
+                 
+                    <tr>
+                        <td>   <img width="200" height="200" src="9.jpg"  ></td>
+                    
+                    </tr>
+                   
+                  </table>
+                
+                .</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="options"></td>
+            <td><input type="checkbox" onclick="toggleDetails(this, 'details10')"></td>
+            <td dir="rtl">600000 ل.س</td>
+            <td>شقة مفروشة مشاحة 90 متر مربع</td>
+            <th>دير الزور</th>
+        </tr>
+        <tr id="details10"  class="details" style="display:none">
+            <td colspan="5">  
+                <table width="100%" align="center">
+                    <tr>
+                        <td>المنطقة: الميدان </td>
+                        <td>عدد الغرف 3 </td>
+                        <td> الطابق الثاني </td>
+                    </tr>
+                    <tr>
+                        <td> الاكساءجيد </td>
+                        <td>لايوجد كراج </td>
+               
+                    </tr>
+                    <tr>
+                        <td>     <img width="200" height="200" src="10.jpg"  ></td>
+                       
+                        
+                    </tr>
+                   
+                  </table>
+
+
+            </td>
+        </tr>
+
+
+    </table>
+    
+    <div id="form-container" class="form-container">
+        <form onsubmit="return validateForm()">
+            <label for="nationalId">الرقم الوطني:</label>
+            <input type="text" id="nationalId" name="nationalId"  required maxlength ="11" placeholder="_ _ _    _ _ _    _ _ _    _ _" ><br><br>
+            
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name"><br><br>
+            
+            <label for="birthDate">تاريخ الميلاد (dd-mm-yyyy):</label>
+            <input type="text" id="birthDate" name="birthDate"><br><br>
+            
+            <label for="mobile">رقم الموبايل:</label>
+            <input type="text" id="mobile" name="mobile" maxlength="12"><br><br>
+            
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" placeholder="example@exmaple.com"><br><br>
+
+            <label for="captcha">أدخل رمز Captcha: <span id="captchaCode"></span></label>
+            <input type="text" id="captcha" name="captcha" required><br><br>
+            
+            <button type="submit"class="continue" >إرسال</button>
+        </form>
+    </div>
+    <div class="continue">
+        <button onclick="showForm()" class="continue"
+    >متابعة
+        </button>
+    </div>
+    
+    
+</body>
+
+</html>
